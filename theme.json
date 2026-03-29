@@ -1,0 +1,173 @@
+﻿{
+  "$schema": "raw://github.com/microsoft/powerbi-desktop-samples/blob/main/Report%20Theme%20JSON%20Schema/reportThemeSchema-2.152.json",
+  "name": "Enterprise Teal System v2",
+
+  "dataColors": [
+    "#005B6D",
+    "#B0E4E2",
+    "#196C7C",
+    "#27AE60",
+    "#F2994A",
+    "#EB5757"
+  ],
+
+  "background": "#F5FBFB",
+  "foreground": "#005B6D",
+  "tableAccent": "#005B6D",
+
+  "visualStyles": {
+
+    "*": {
+      "*": {
+        "title": [
+          {
+            "show": true,
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 13,
+            "color": { "solid": { "color": "#005B6D" } }
+          }
+        ]
+      }
+    },
+
+    "card": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#196C7C" } },
+            "transparency": 0
+          }
+        ],
+        "labels": [
+          {
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#E2F4F4" } },
+            "fontSize": 12
+          }
+        ]
+      }
+    },
+
+    "clusteredColumnChart": {
+      "*": {
+
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+
+        "dataPoint": [
+          {
+            "defaultColor": { "solid": { "color": "#005B6D" } }
+          }
+        ],
+
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#005B6D" } },
+            "gridlineColor": { "solid": { "color": "#E2F4F4" } }
+          }
+        ],
+
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#005B6D" } },
+            "gridlineColor": { "solid": { "color": "#E2F4F4" } }
+          }
+        ]
+      }
+    },
+
+    "lineChart": {
+      "*": {
+
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } },
+            "transparency": 0
+          }
+        ],
+
+        "categoryAxis": [
+          {
+            "labelColor": { "solid": { "color": "#005B6D" } },
+            "gridlineColor": { "solid": { "color": "#E2F4F4" } }
+          }
+        ],
+
+        "valueAxis": [
+          {
+            "labelColor": { "solid": { "color": "#005B6D" } },
+            "gridlineColor": { "solid": { "color": "#E2F4F4" } }
+          }
+        ]
+      }
+    },
+
+    "tableEx": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "backColor": { "solid": { "color": "#E2F4F4" } },
+            "color": { "solid": { "color": "#005B6D" } }
+          }
+        ],
+        "grid": [
+          {
+            "outlineColor": { "solid": { "color": "#B0E4E2" } }
+          }
+        ]
+      }
+    },
+
+    "matrix": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "columnHeaders": [
+          {
+            "backColor": { "solid": { "color": "#E2F4F4" } },
+            "color": { "solid": { "color": "#005B6D" } }
+          }
+        ]
+      }
+    },
+
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "items": [
+          {
+            "color": { "solid": { "color": "#005B6D" } }
+          }
+        ]
+      }
+    }
+  }
+}
